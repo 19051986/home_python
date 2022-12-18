@@ -7,7 +7,7 @@
 # Петров 13749.32
 
 
-data_file = open("salary_task28.txt", "r")
+data_file = open("salary_task3.txt", "r")
 sotrudniki_count = 0
 sotrudniki_sum = 0
 for line in data_file.readlines():

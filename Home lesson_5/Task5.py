@@ -2,7 +2,7 @@
 # разделенных пробелами. Программа должна подсчитывать сумму чисел в файле и
 # выводить ее на экран.
 
-f = open('Numbers_t30.txt', 'w')
+f = open('Numbers_task5.txt', 'w')
 print("Введите набор чисел, разделенных пробелами: ")
 while True:
     text = input()
@@ -10,7 +10,7 @@ while True:
     if text == "":
         break
 
-f = open('Numbers_t30.txt', 'r')
+f = open('Numbers_task5.txt', 'r')
 lst = f.read().split()
 total = 0
 for elem in lst:

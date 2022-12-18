@@ -13,5 +13,5 @@ while \
         newline = line + '\n'
         my_list.append(newline)
 
-    with open("test_task26.txt", "w") as file_obj:
+    with open("test_task1.txt", "w") as file_obj:
         file_obj.writelines(my_list)

@@ -9,8 +9,8 @@
 
 slovarj = {"One": "Один", "Two": "Два", "Three": "Три", "Four": "Четыре"}
 
-input_file = open("tekst_task29.txt")
-out_file = open("tekst2_task29.txt", "a", encoding="utf8")
+input_file = open("tekst_task4.txt")
+out_file = open("tekst2_task4.txt", "a", encoding="utf8")
 
 for line in input_file.readlines():
     for slovo in slovarj:
